@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-mdantas
+  host: IoT-mdantas
+  disk_quota: 1024M
+  services:
+  - IoT-mdantas-cloudantNoSQLDB
+  - IoT-mdantas-iotf-service
